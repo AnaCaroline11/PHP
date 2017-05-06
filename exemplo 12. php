@@ -5,15 +5,15 @@
 <body>
 <h1> Exemplo12 </h1>
 <?php
-function(){
-$msn = "OLÁ, BEM VINDO AS FUNÇÕES NO PHP";
-echo "<h2> $msn </h2>";
+ function(){
+  $msn = "OLÁ, BEM VINDO AS FUNÇÕES NO PHP";
+    echo "<h2> $msn </h2>";
 }
-function imprimmir ($texto){
-echo "<h3> $texto </h3>";
+ function imprimmir ($texto){
+   echo "<h3> $texto </h3>";
 }
-msn();
-imprimir ("TESTANDO FUNÇÃO");
+ msn();
+  imprimir ("TESTANDO FUNÇÃO");
 ?>
 </body>
 </html>
