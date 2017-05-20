@@ -3,7 +3,8 @@
  	$tempo=time()+(3600*24*7);
  	$valor=$_COOKIE['contador']+1;
  	setcookie('contador', $valor, $tempo);
- }else{
+ }
+ else{
  	$valor=1;
  	$tempo=time()+(3600*24*7);
  	setcookie('contador', $valor, $tempo);
